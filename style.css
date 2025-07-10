@@ -18,6 +18,9 @@ body h1{
     text-align: center;
     margin: 50px;
 }
+body h1::first-letter{
+    font-size: 6rem;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -90,7 +93,20 @@ body h1{
 .final{
     font-family: 'steph';
     font-size: 2rem;
+    animation: load 3s ease infinite ;
 }
 .hide{
+
     display: none;
+}
+.final b::after{
+    content:"" ;
+    animation: dots 3s  infinite;
+}
+
+@keyframes dots {
+  0% { content: ""; }
+  33% { content: "."; }
+  66% { content: ".."; }
+  100% { content: "..."; }
 }

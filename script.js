@@ -48,7 +48,7 @@ async function ar() {
     let response ='';
     try{
    response = await fetch(
-    "https://quizapi.io/api/v1/questions?apiKey=1nQECe3KX9QUR9RIwCNHq4RmEgdf5g24GftzQtqQ&limit=11&category=html"
+    "https://quizapi.io/api/v1/questions?apiKey=XgixmpbarmHfePjiAOJUJHFsKd2EgyDJGlsXnKRG&limit=11&category=html"
   );}catch(err){
     console.log(err);
 }
